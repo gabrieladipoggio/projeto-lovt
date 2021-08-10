@@ -150,9 +150,67 @@ h2 {
         padding-top: 1.5em
     }
 
-    footer {
-        height: 245px;
-        background-color: #333333;
-        margin-top: 4em;
-
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
     }
+
+    input, textarea, .submit-btn {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .submit-btn{
+        margin: 10px auto;
+    }
+
+    button{
+        font-size:16px;
+        background-color: #DC972F;
+        color: #FFF;
+        width: 100px;    
+        border-radius: 10px;
+    }
+
+
+    footer {
+        margin-top: 5em;
+        background-color: #333333;
+        color: #fff;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 2em ;
+        justify-content: space-evenly;        
+    }
+
+    .map{
+        height: 15em;
+    }
+
+    .info-contato p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .instagram, .facebook, .wpp{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 27px;
+        padding-left: 10px;
+    }
+
+    .instagram{
+        padding-left: 0;
+    }
+    
