@@ -70,10 +70,18 @@
         <section>
             <h2>Contact</h2>
             <form>
-                <input type="text" placeholder="Name:">	
-                <input type="email" placeholder="Email:"> 	
-                <input type="tel" placeholder="Phone:">	
-                <textarea rows="3"></textarea>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Name:" name="name" id="name">	
+
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email:" name="email" id="email"> 	
+
+                <label for="phone">Phone</label>
+                <input type="tel" placeholder="Phone:" name="phone" id="phone">	
+                
+                <label for="message">Message</label>                
+                <textarea rows="3" name="message" id="message"></textarea>
+                
                 <div class="submit-btn">
                     <button type="submit" value="Submit" class="submit">Submit</button>        
                 </div>
